@@ -1,4 +1,4 @@
-﻿# 00 — System Overview
+# 00 — System Overview
 
 **Project**: SchoolOpsPro Mobile
 **Platform**: Flutter (Android + iOS)
@@ -34,6 +34,7 @@ Dio HTTP client, go_router navigation, and Flutter flavors for multi-school depl
 | Multi-school / white-label | Flutter flavors + Dart defines | ADR-004 |
 | Secure storage | flutter_secure_storage | ADR-005 |
 | Local cache | Hive | ADR-005 |
+| Template & Upgradability | Core adapter isolation & pure Dart domain | ADR-006 |
 | Navigation | go_router | — |
 | Serialization | json_serializable + freezed | — |
 | Code generation | build_runner | — |

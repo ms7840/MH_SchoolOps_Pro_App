@@ -1,4 +1,4 @@
-﻿# 24 — Architecture Decision Records (ADRs)
+# 24 — Architecture Decision Records (ADRs)
 
 ## Overview
 This document logs the foundational architectural decisions governing the SchoolOpsPro Flutter mobile application. An Architecture Decision Record (ADR) captures an important architectural decision made along with its context and consequences.
@@ -14,6 +14,7 @@ This document logs the foundational architectural decisions governing the School
 | **ADR-003** | Dio as Core HTTP Client | Accepted | 2026-10-04 | Interceptor-driven HTTP client with automatic JWT refresh and logging | [ADR-003](file:///d:/MH_SchoolOps_Pro_Mobile/docs/architecture/decisions/ADR-003-network-client.md) |
 | **ADR-004** | White-Label Architecture via Flavors | Accepted | 2026-10-04 | Flutter Flavors + compile-time `--dart-define` for multi-school deployments | [ADR-004](file:///d:/MH_SchoolOps_Pro_Mobile/docs/architecture/decisions/ADR-004-white-label-deployment.md) |
 | **ADR-005** | Dual Storage Strategy (Keychain + Hive) | Accepted | 2026-10-04 | `flutter_secure_storage` for credentials + `Hive` for offline caching | [ADR-005](file:///d:/MH_SchoolOps_Pro_Mobile/docs/architecture/decisions/ADR-005-storage.md) |
+| **ADR-006** | Template Reusability & Upgrade Resilience | Accepted | 2026-10-10 | Strict adapter isolation in `core/` and pure Dart domain for effortless tech upgrades and multi-app template reuse | [ADR-006](file:///d:/MH_SchoolPro_APP/docs/architecture/decisions/ADR-006-template-reusability-and-upgrade-resilience.md) |
 
 ---
 

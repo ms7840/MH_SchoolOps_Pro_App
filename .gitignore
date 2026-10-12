@@ -1,0 +1,102 @@
+# ============================================================
+# Flutter / Dart — Build & Tooling
+# ============================================================
+.dart_tool/
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+.flutter-plugins
+.flutter-plugins-dependencies
+.widget_preview/
+app.*.symbols
+app.*.map.json
+
+# ============================================================
+# Android
+# ============================================================
+android/.gradle/
+android/.kotlin/
+android/captures/
+android/local.properties
+android/app/src/main/java/          # GeneratedPluginRegistrant.java (Flutter-generated)
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/*.iml
+*.iml
+
+# Android Signing — NEVER commit keystores or signing keys
+key.properties
+android/key.properties
+**/*.keystore
+**/*.jks
+
+# ============================================================
+# Windows Desktop
+# ============================================================
+windows/flutter/ephemeral/
+
+# ============================================================
+# iOS / macOS (not in this project yet, future-proofing)
+# ============================================================
+ios/Flutter/.last_build_id
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# ============================================================
+# IDEs & Editors — ALL local/machine-specific IDE folders
+# ============================================================
+
+# VS Code / Antigravity IDE (fully local — SDK paths, tasks)
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+
+# Visual Studio (Windows .vs/ folder)
+.vs/
+
+# ============================================================
+# OS-generated junk
+# ============================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# Secrets & Environment
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.p12
+*.key
+
+# ============================================================
+# Miscellaneous
+# ============================================================
+*.log
+*.class
+*.pyc
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/

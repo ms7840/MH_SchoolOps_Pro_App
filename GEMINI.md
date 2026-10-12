@@ -1,4 +1,4 @@
-﻿# SchoolOpsPro Mobile — AI Agent Entry Point
+# SchoolOpsPro Mobile — AI Agent Entry Point
 
 > **Read this file before ANY development task.**
 
@@ -44,6 +44,7 @@ Backend: .NET Core microservices + PostgreSQL. APIs already exist.
 | Testing | 19-testing.md |
 | Naming conventions | 20-naming-conventions.md |
 | Adding a new feature | 23-feature-development-process.md |
+| Reusable template & tech upgrades | 25-template-and-upgradability.md |
 | Why decisions were made | docs/architecture/decisions/ |
 
 ## Key Architectural Decisions (summary)
